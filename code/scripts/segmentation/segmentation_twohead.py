@@ -160,6 +160,8 @@ else:
 # Model ------------------------------------------------------
 
 def train():
+  print("inside train")
+  exit()
   dataloaders_head_A, mapping_assignment_dataloader, mapping_test_dataloader = \
     segmentation_create_dataloaders(config)
   dataloaders_head_B = dataloaders_head_A  # unlike for clustering datasets
